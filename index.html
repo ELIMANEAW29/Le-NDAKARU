@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant NDAKARU</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fontawesome.com/icons/square-instagram?f=brands&s=solid&an=beat">
+
+<!-- Section d'en-tête -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">NDAKARU</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="Menu.html">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="A propos de nous.html">À propos de nous</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Section Héros -->
+<header class="hero d-flex justify-content-center align-items-center text-center text-white" style="background-image: url('images/restau1.jpg'); height: 60vh;">
+    <div>
+        <h1 class="display-4">Bienvenue chez NDAKARU</h1>
+        <p class="lead">Savourez les meilleurs plats préparés avec amour</p>
+        <a href="#menu" class="btn btn-light btn-lg">Voir notre Menu</a>
+    </div>
+</header>
+
+<!-- Section Menu -->
+<section id="menu" class="container py-5">
+    <h2 class="text-center mb-4">Notre Menu</h2>
+    <div class="row">
+        <!-- Élément de menu 1 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="images/fruit de mer.jpg" class="card-img-top" alt="Plat 1">
+                <div class="card-body">
+                    <h5 class="card-title">Plat 1</h5>
+                    <p class="card-text">Délicieux plat à base de fruits de mer et d'épices.</p>
+                    <p><strong>Prix : 15€</strong></p>
+                </div>
+            </div>
+        </div>
+
+         <!-- Élément de menu 2 -->
+         <div class="col-md-4">
+            <div class="card">
+                <img src="images/steak2.jpg" class="card-img-top" alt="Plat 2">
+                <div class="card-body">
+                    <h5 class="card-title">Plat 2</h5>
+                    <p class="card-text">Un steak tendre accompagné de légumes frais.</p>
+                    <p><strong>Prix : 18€</strong></p>
+                </div>
+            </div>
+        </div>
+        <!-- Élément de menu 3 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="images/vegetariennes.jpg" class="card-img-top" alt="Plat 3">
+                <div class="card-body">
+                    <h5 class="card-title">Plat 3</h5>
+                    <p class="card-text">Un plat végétarien savoureux et plein de saveurs.</p>
+                    <p><strong>Prix : 12€</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section À propos de nous -->
+<section id="about" class="container py-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="images/restau.jpg" class="img-fluid" alt="Restaurant">
+        </div>
+        <div class="col-md-6">
+            <h2>À propos de nous</h2>
+            <p>Votre restaurant Le NDAKARU vous invite à vivre une expérience culinaire inoubliable. Nous mettons un point d'honneur à utiliser des ingrédients frais et de qualité, pour vous offrir un moment gastronomique unique.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Section Contact -->
+<section id="contact" class="container py-5">
+    <h2 class="text-center mb-4">Contactez-nous</h2>
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Nom</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+    </form>
+</section>
+
+<!-- Pied de page -->
+<footer class="bg-dark text-white text-center py-4">
+    <p>&copy; 2024 Restaurant le NDAKARU | Suivez-nous sur:</p>
+    <div class="social-media">
+        <a href="#" class="text-white me-3">Facebook</a>
+        <a href="#" class="text-white me-3">Instagram</a>
+        <a href="#" class="text-white me-3">Twitter</a>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
